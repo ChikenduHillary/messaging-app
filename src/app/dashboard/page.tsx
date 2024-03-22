@@ -1,11 +1,10 @@
 import { FunctionComponent } from "react";
+import Button from "@/component/ui/Button";
 
-interface PageProps {
-    
-}
+interface PageProps {}
  
 const Page: FunctionComponent<PageProps> = () => {
-    return <></>;
+    return <Button isLoading={false}>Hello</Button>;
 }
  
 export default Page;
