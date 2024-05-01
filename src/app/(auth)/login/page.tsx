@@ -35,7 +35,7 @@ const Page: FunctionComponent<PageProps> = () => {
           <Button
             className="max-w-sm flex items-center justify-center gap-3 mx-auto w-full"
             isLoading={isLoading}
-            variant="default"
+            variant={"default"}
             type="button"
             onClick={loginWithGoogle}
           >
