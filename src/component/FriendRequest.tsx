@@ -15,10 +15,11 @@ const FriendRequest: FunctionComponent<FriendRequestProps> = ({
   const [friendRequests, setFriendRequest] = useState<IncomingFriendRequest[]>(
     incomingFriendRequest
   );
+
   return (
     <>
       {friendRequests.length === 0 ? (
-        <p className="text-sm text-zinc-500s"></p>
+        <p className="text-sm text-zinc-500"></p>
       ) : (
         friendRequests.map((request) => (
           <div key={request.senderId} className="flex gap-4 items-center">
